@@ -25,10 +25,7 @@ const AuthForm = () => {
           id="password"
           placeholder="At least 8 digits"
         />
-        {/* </div> */}
-        {/* <div className="button"> */}
-        <Button label="Login" width="100" />
-        {/* </div> */}
+        <Button label="Login" width="100" routerPath="/" />
         <Link href={"/reset"} className="forgot-pass">
           Forgot password? Click here
         </Link>

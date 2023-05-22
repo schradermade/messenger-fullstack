@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 type ButtonProps = {
@@ -14,7 +13,6 @@ const Button: React.FC<ButtonProps> = ({ label, width, routerPath }) => {
 
   return (
     <>
-      {/* <Link href=""> */}
       <button
         onClick={() => router.push(`${routerPath}`)}
         type="button"
@@ -22,7 +20,6 @@ const Button: React.FC<ButtonProps> = ({ label, width, routerPath }) => {
       >
         {label}
       </button>
-      {/* </Link> */}
       <style jsx>{`
         .button {
           margin-top: 25px;

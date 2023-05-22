@@ -29,7 +29,6 @@ const LoginLayout: React.FC<LoginLayoutProps> = ({ children }) => {
           height: 500px;
           width: 400px;
           border-radius: 10px;
-          // background: #d3d3d3;
           background: rgb(255, 255, 255);
           background: linear-gradient(
             180deg,

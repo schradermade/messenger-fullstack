@@ -38,8 +38,7 @@ const Input: React.FC<InputProps> = ({
           padding: 10px 10px 10px 15px;
           background: white;
           color: gray;
-          margin-top: 5px;
-          margin-bottom: 10px;
+          margin: 10px 0 10px 0;
           height: 25px;
           009ffd
         }
